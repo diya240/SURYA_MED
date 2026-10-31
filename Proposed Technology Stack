@@ -1,0 +1,9 @@
+Component	/ Technology
+Microcontroller	ESP32 / Arduino
+Programming	C / Arduino IDE
+Energy Source	Solar PV Panel
+Energy Storage	Protected Rechargeable Battery
+Sensors	Voltage and Current Sensors
+Display	OLED / LCD
+Optional Dashboard	Python
+Demonstration Loads	LEDs / Low-voltage loads
