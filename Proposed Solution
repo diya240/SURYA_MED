@@ -1,0 +1,5 @@
+SURYA-MED integrates solar photovoltaic panels, battery storage and an intelligent microcontroller-based energy management system.
+
+The system monitors available energy and distributes electricity according to predefined priority levels.
+
+When stored energy becomes limited, lower-priority demonstration loads are disconnected first, allowing higher-priority loads to receive available power.
