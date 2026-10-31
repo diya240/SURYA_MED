@@ -1,0 +1,33 @@
+The project will be developed in four stages:
+
+Stage 1 – System Design
+
+Define healthcare energy requirements.
+
+Identify essential and non-essential loads.
+
+Develop system architecture.
+
+Stage 2 – Hardware Development
+
+Integrate solar panel and battery.
+
+Connect sensors and microcontroller.
+
+Develop low-voltage demonstration setup.
+
+Stage 3 – Software Development
+
+Implement energy monitoring.
+
+Develop priority-control logic.
+
+Create monitoring interface.
+
+Stage 4 – Testing and Validation
+
+Test energy monitoring accuracy.
+
+Evaluate priority switching.
+
+Measure response time and system performance.
