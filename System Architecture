@@ -1,0 +1,79 @@
+# SURYA-MED – System Architecture
+
+## 1. Overview
+
+SURYA-MED follows a modular architecture integrating renewable energy generation, battery storage, energy monitoring and intelligent power distribution.
+
+## 2. System Components
+
+### A. Energy Generation
+
+* Solar photovoltaic panel.
+* Converts solar energy into electrical energy.
+
+### B. Energy Storage
+
+* Solar charge controller.
+* Rechargeable battery.
+* Battery protection system.
+
+### C. Energy Monitoring
+
+* Voltage sensors.
+* Current sensors.
+* Battery status monitoring.
+* Individual load monitoring.
+
+### D. Intelligent Control
+
+* ESP32 / Arduino microcontroller.
+* Sensor data processing.
+* Battery-level evaluation.
+* Priority-based energy management.
+
+### E. Output and Display
+
+* OLED/LCD display.
+* LED indicators.
+* Switching modules.
+* Low-energy warning system.
+
+## 3. System Data Flow
+
+Solar Panel
+↓
+Solar Charge Controller
+↓
+Battery Storage
+↓
+Voltage and Current Sensors
+↓
+ESP32 / Arduino Controller
+↓
+Priority-Based Energy Allocation
+↓
+Switching Modules
+↓
+Selected Demonstration Loads
+
+## 4. Monitoring Interface
+
+The display provides:
+
+* Battery level.
+* Input voltage.
+* Current consumption.
+* Individual load status.
+* Energy availability.
+* Low-battery warnings.
+
+## 5. System Operation
+
+The controller continuously monitors energy availability and compares it against predefined thresholds.
+
+When battery energy decreases, the controller disconnects lower-priority demonstration loads first.
+
+Higher-priority demonstration loads remain connected while sufficient safe operating energy is available.
+
+
+**Note:** This is a proposed architecture. Hardware integration and validation are planned development activities.
