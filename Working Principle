@@ -1,0 +1,13 @@
+The proposed system follows this workflow:
+
+Solar panels generate electrical energy.
+A solar charge controller manages battery charging.
+The battery stores generated energy.
+Sensors monitor voltage and current.
+An ESP32/Arduino-based controller evaluates available energy.
+Priority rules determine the distribution of available power.
+An LCD/OLED display provides system status and alerts.
+
+System Flow:
+
+Solar Panel → Charge Controller → Battery → Energy Monitoring → Priority Controller → Selected Loads
